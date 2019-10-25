@@ -1,0 +1,24 @@
+{
+  "name": "gallery-project",
+  "version": "1.0.0",
+  "description": "Gallery project task for GFA",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matyaspeterfi/gallery-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matyaspeterfi/gallery-project/issues"
+  },
+  "homepage": "https://github.com/matyaspeterfi/gallery-project#readme",
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "express": "^4.17.1"
+  }
+}
