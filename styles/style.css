@@ -21,7 +21,6 @@ body{
 .image_viewer{
   display: flex;
   flex-flow: row;
-  height: 400px;
   width: 800px;
   height: 300px;
   margin: 10px;
@@ -31,9 +30,16 @@ body{
 .picWindow{
   background-color: darkgray;
   width: 700px;
-  height: auto;
+  height: inherit;
 }
-.ArrowCont{
+
+.currentImage{
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+}
+
+.arrowCont{
   display: flex;
   background-color: white;
   width: 50px;
@@ -50,7 +56,6 @@ body{
   display:flex;
   flex-flow: row;
   list-style: none;
-  /* background-color: purple; */
   width: 400px;
   height: 80px;
   margin: 10px;
