@@ -1,3 +1,70 @@
-h1{
-  color: red;
+body{
+  margin: 0;
+  padding: 0;
 }
+
+.container{
+  display: flex;
+  flex-flow: column;
+  background-image: radial-gradient(white, lightgray);
+  margin: 0;
+  padding: 0;
+  width: auto;
+  height: 800px;
+  align-items: center;
+}
+
+.title{
+  display: flex;
+}
+
+.image_viewer{
+  display: flex;
+  flex-flow: row;
+  height: 400px;
+  width: 800px;
+  height: 300px;
+  margin: 10px;
+  box-shadow: 5px 5px 8px grey;
+}
+
+.picWindow{
+  background-color: darkgray;
+  width: 700px;
+  height: auto;
+}
+.ArrowCont{
+  display: flex;
+  background-color: white;
+  width: 50px;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+#rightArrow{
+  transform: scaleX(-1);
+}
+
+.thumbnailsCont{
+  display:flex;
+  flex-flow: row;
+  list-style: none;
+  /* background-color: purple; */
+  width: 400px;
+  height: 80px;
+  margin: 10px;
+  padding: 0px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.thumbnail{
+  width: 40px;
+  height: 40px;
+  background-color: lightgray;
+  border: 3px solid white;
+  border-radius: 10%;
+  filter: drop-shadow()
+}
+
